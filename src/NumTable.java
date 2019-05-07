@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 public class NumTable {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число: ");
         int num = sc.nextInt();
 
 
-        int one = 1 * num;
+        int one = 1* num;
         int two = 2 * num;
         int three = 3 * num;
         int four = 4 * num;
@@ -31,8 +32,6 @@ public class NumTable {
                 "8 * " + num + " = " + eight + "\n" +
                 "9 * " + num + " = " + nine + "\n" +
                 "10 * " + num + " = " + ten + "\n");
-
-
     }
 }
 
